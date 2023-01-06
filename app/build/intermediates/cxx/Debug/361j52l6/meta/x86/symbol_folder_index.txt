@@ -1,0 +1,1 @@
+/mnt/sda1/oleg/myprojects/LerneDeutsch/app/build/intermediates/cxx/Debug/361j52l6/obj/x86

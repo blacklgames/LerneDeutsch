@@ -1,0 +1,4 @@
+/home/oleg/Android/Sdk/cmake/3.18.1/bin/ninja \
+  -C \
+  /mnt/sda1/oleg/myprojects/LerneDeutsch/app/.cxx/Debug/361j52l6/x86_64 \
+  myapplication
