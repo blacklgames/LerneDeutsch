@@ -1,6 +1,22 @@
 [
     {
-        "merged": "com.example.myapplication.app-mergeDebugResources-24:/layout/activity_main.xml",
-        "source": "com.example.myapplication.app-main-27:/layout/activity_main.xml"
+        "merged": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-mergeDebugResources-24:/layout/activity_settings.xml",
+        "source": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-main-27:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-mergeDebugResources-24:/layout/activity_game.xml",
+        "source": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-main-27:/layout/activity_game.xml"
+    },
+    {
+        "merged": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-mergeDebugResources-24:/layout/activity_main.xml",
+        "source": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-main-27:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-mergeDebugResources-24:/layout/activity_enter_name.xml",
+        "source": "/home/oleg/.gradle/daemon/7.4/com.example.myapplication.app-main-27:/layout/activity_enter_name.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-24:/layout/activity_enter_name.xml",
+        "source": "com.example.myapplication.app-main-27:/layout/activity_enter_name.xml"
     }
 ]

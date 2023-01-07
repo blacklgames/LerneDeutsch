@@ -1,0 +1,3 @@
+/mnt/sda1/oleg/myprojects/LerneDeutsch/app/.cxx/Debug/361j52l6/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/mnt/sda1/oleg/myprojects/LerneDeutsch/app/.cxx/Debug/361j52l6/arm64-v8a/CMakeFiles/edit_cache.dir
+/mnt/sda1/oleg/myprojects/LerneDeutsch/app/.cxx/Debug/361j52l6/arm64-v8a/CMakeFiles/myapplication.dir

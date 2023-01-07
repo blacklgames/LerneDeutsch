@@ -1,3 +1,4 @@
 # ninja log v5
 0	176	1673018607	CMakeFiles/myapplication.dir/native-lib.cpp.o	231f6c3aeb377cd0
 176	193	1673018607	/mnt/sda1/oleg/myprojects/LerneDeutsch/app/build/intermediates/cxx/Debug/361j52l6/obj/x86_64/libmyapplication.so	12c4c46b6ebf048
+0	26	1673028612	/mnt/sda1/oleg/myprojects/LerneDeutsch/app/build/intermediates/cxx/Debug/361j52l6/obj/x86_64/libmyapplication.so	12c4c46b6ebf048

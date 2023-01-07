@@ -9,8 +9,16 @@ color teal_700
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btnNext
+id layout
 id sample_text
+id textView
+id txtCount
+id userCount
+layout activity_enter_name
+layout activity_game
 layout activity_main
+layout activity_settings
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

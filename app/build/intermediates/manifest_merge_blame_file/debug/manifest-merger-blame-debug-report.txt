@@ -11,7 +11,7 @@
 9-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:5:5-28:19
+11-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:5:5-49:19
 12        android:allowBackup="true"
 12-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,51 +34,90 @@
 23        android:theme="@style/Theme.MyApplication" >
 23-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:13:9-51
 24        <activity
-24-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:15:9-27:20
-25            android:name="com.example.myapplication.MainActivity"
+24-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:15:9-21:20
+25            android:name="com.example.myapplication.GameActivity"
 25-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:16:13-41
-26            android:exported="true" >
-26-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:17:13-36
-27            <intent-filter>
-27-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:19:17-69
-28-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:21:17-77
-30-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32
-33            <meta-data
-33-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:24:13-26:36
-34                android:name="android.app.lib_name"
-34-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:25:17-52
-35                android:value="" />
-35-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:26:17-33
-36        </activity>
-37
-38        <provider
-38-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-39            android:name="androidx.startup.InitializationProvider"
-39-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-40            android:authorities="com.example.myapplication.androidx-startup"
-40-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-41            android:exported="false" >
-41-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-42            <meta-data
-42-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-43-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-44                android:value="androidx.startup" />
-44-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-45            <meta-data
-45-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/oleg/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-46-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/oleg/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-47                android:value="androidx.startup" />
-47-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/oleg/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-48        </provider>
-49    </application>
+26            android:exported="false" >
+26-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:17:13-37
+27            <meta-data
+27-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:18:13-20:36
+28                android:name="android.app.lib_name"
+28-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:19:17-52
+29                android:value="" />
+29-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:20:17-33
+30        </activity>
+31        <activity
+31-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:22:9-28:20
+32            android:name="com.example.myapplication.EnterNameActivity"
+32-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:23:13-46
+33            android:exported="false" >
+33-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:24:13-37
+34            <meta-data
+34-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:18:13-20:36
+35                android:name="android.app.lib_name"
+35-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:19:17-52
+36                android:value="" />
+36-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:20:17-33
+37        </activity>
+38        <activity
+38-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:29:9-35:20
+39            android:name="com.example.myapplication.SettingsActivity"
+39-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:30:13-45
+40            android:exported="false" >
+40-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:31:13-37
+41            <meta-data
+41-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:18:13-20:36
+42                android:name="android.app.lib_name"
+42-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:19:17-52
+43                android:value="" />
+43-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:20:17-33
+44        </activity>
+45        <activity
+45-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:36:9-48:20
+46            android:name="com.example.myapplication.MainActivity"
+46-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:37:13-41
+47            android:exported="true" >
+47-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:38:13-36
+48            <intent-filter>
+48-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:39:13-43:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:40:17-69
+49-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:40:25-66
 50
-51</manifest>
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:42:17-77
+51-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:42:27-74
+52            </intent-filter>
+53
+54            <meta-data
+54-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:18:13-20:36
+55                android:name="android.app.lib_name"
+55-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:19:17-52
+56                android:value="" />
+56-->/mnt/sda1/oleg/myprojects/LerneDeutsch/app/src/main/AndroidManifest.xml:20:17-33
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+61            android:authorities="com.example.myapplication.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.0.0] /home/oleg/.gradle/caches/transforms-3/4b580972190c9e236a669c6a1f1f8a9e/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/oleg/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/oleg/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/oleg/.gradle/caches/transforms-3/dd1064e81b3445eb173cd45521bfd469/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
